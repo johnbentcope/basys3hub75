@@ -5,7 +5,7 @@ module HUB75Driver(output [7:0] JB, JC, input clk);
   assign JB = {R0, G0, B0, X0, R1, G1, B1, X1};
   assign JC = {A0, A1, A2, A3, BL, LA, CK, A4};
 
-  reg [10:0] clockCounter;
+  reg [32:0] clockCounter;
 
   wire pixelClock;
   
@@ -33,16 +33,15 @@ module HUB75Driver(output [7:0] JB, JC, input clk);
 
   always @(posedge clk)
   begin
-    // clockCounter <= clockCounter + 1;
-    // if (clockCounter == 31)
-    // begin
-    //   LA <= 1;
-    //   clockCounter <= 0;
-    // end
-    // else
-    // begin
-    //   LA <= 0;
-    // end
+    clockCounter <= clockCounter + 1;
+    if (clockCounter < 100000)
+    begin
+      BL <= 1;
+    end
+    else
+    begin
+      BL <= 0;
+    end
   end
 
 endmodule

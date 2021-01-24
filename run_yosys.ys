@@ -1,0 +1,2 @@
+read_verilog HUB75Driver.v
+synth_xilinx -edif HUB75Driver.edif -top HUB75Driver

@@ -1,18 +1,18 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Sun Jan 24 01:15:59 2021
+[*] Sun Jan 24 17:27:18 2021
 [*]
 [dumpfile] "/home/john/repos/basys3hub75/HUB75Driver_tb.vcd"
-[dumpfile_mtime] "Sun Jan 24 01:15:56 2021"
-[dumpfile_size] 897
+[dumpfile_mtime] "Sun Jan 24 17:26:57 2021"
+[dumpfile_size] 5168
 [savefile] "/home/john/repos/basys3hub75/HUB75Driver.gtkw"
 [timestart] 0
-[size] 1848 1016
+[size] 1920 1043
 [pos] -1 -1
-*-7.096368 370 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-10.119973 484 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] HUB75Driver_tb.
 [sst_width] 233
-[signals_width] 174
+[signals_width] 196
 [sst_expanded] 1
 [sst_vpaned_height] 278
 @28
@@ -42,7 +42,8 @@ HUB75Driver_tb.HUB75Driver01.B1[0]
 HUB75Driver_tb.HUB75Driver01.LA[0]
 HUB75Driver_tb.HUB75Driver01.X0[0]
 HUB75Driver_tb.HUB75Driver01.X1[0]
-@23
-HUB75Driver_tb.HUB75Driver01.clockCounter[10:0]
+HUB75Driver_tb.HUB75Driver01.draw[0]
+@25
+HUB75Driver_tb.HUB75Driver01.address[2:0]
 [pattern_trace] 1
 [pattern_trace] 0

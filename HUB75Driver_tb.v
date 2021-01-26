@@ -1,3 +1,5 @@
+`timescale 1 ns/100 ps
+
 module HUB75Driver_tb();
   reg clk_t;
   wire [7:0] JB_t, JC_t;
@@ -17,6 +19,6 @@ module HUB75Driver_tb();
 
   always #5 clk_t <= ~clk_t;
 
-  always #1000 $finish;
+  always #10000000 $finish;
 
 endmodule

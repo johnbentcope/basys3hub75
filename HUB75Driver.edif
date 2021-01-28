@@ -206,172 +206,172 @@
         (contents
           (instance GND (viewRef VIEW_NETLIST (cellRef GND (libraryRef LIB))))
           (instance VCC (viewRef VIEW_NETLIST (cellRef VCC (libraryRef LIB))))
-          (instance (rename id00001 "$abc$2726$auto$blifparse.cc:498:parse_blif$2727")
+          (instance (rename id00001 "$abc$2722$auto$blifparse.cc:498:parse_blif$2723")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00002 "$abc$2726$auto$blifparse.cc:498:parse_blif$2728.lut0.lut0")
+          (instance (rename id00002 "$abc$2722$auto$blifparse.cc:498:parse_blif$2724.lut0.lut0")
             (viewRef VIEW_NETLIST (cellRef LUT6 (libraryRef LIB)))
             (property INIT (string "64'h0000000000000001")))
-          (instance (rename id00003 "$abc$2726$auto$blifparse.cc:498:parse_blif$2728.lut0.mux7")
+          (instance (rename id00003 "$abc$2722$auto$blifparse.cc:498:parse_blif$2724.lut0.mux7")
             (viewRef VIEW_NETLIST (cellRef MUXF7 (libraryRef LIB))))
-          (instance (rename id00004 "$abc$2726$auto$blifparse.cc:498:parse_blif$2728.lut1.mux7")
+          (instance (rename id00004 "$abc$2722$auto$blifparse.cc:498:parse_blif$2724.lut1.mux7")
             (viewRef VIEW_NETLIST (cellRef MUXF7 (libraryRef LIB))))
-          (instance (rename id00005 "$abc$2726$auto$blifparse.cc:498:parse_blif$2728.mux8")
+          (instance (rename id00005 "$abc$2722$auto$blifparse.cc:498:parse_blif$2724.mux8")
             (viewRef VIEW_NETLIST (cellRef MUXF8 (libraryRef LIB))))
-          (instance (rename id00006 "$abc$2726$auto$blifparse.cc:498:parse_blif$2729.lut0.mux7")
+          (instance (rename id00006 "$abc$2722$auto$blifparse.cc:498:parse_blif$2725.lut0.mux7")
             (viewRef VIEW_NETLIST (cellRef MUXF7 (libraryRef LIB))))
-          (instance (rename id00007 "$abc$2726$auto$blifparse.cc:498:parse_blif$2729.lut1.lut1")
+          (instance (rename id00007 "$abc$2722$auto$blifparse.cc:498:parse_blif$2725.lut1.lut1")
             (viewRef VIEW_NETLIST (cellRef LUT6 (libraryRef LIB)))
-            (property INIT (string "64'h8000000000000000")))
-          (instance (rename id00008 "$abc$2726$auto$blifparse.cc:498:parse_blif$2729.lut1.mux7")
+            (property INIT (string "64'h0100000000000000")))
+          (instance (rename id00008 "$abc$2722$auto$blifparse.cc:498:parse_blif$2725.lut1.mux7")
             (viewRef VIEW_NETLIST (cellRef MUXF7 (libraryRef LIB))))
-          (instance (rename id00009 "$abc$2726$auto$blifparse.cc:498:parse_blif$2729.mux8")
+          (instance (rename id00009 "$abc$2722$auto$blifparse.cc:498:parse_blif$2725.mux8")
             (viewRef VIEW_NETLIST (cellRef MUXF8 (libraryRef LIB))))
-          (instance (rename id00010 "$abc$2726$auto$blifparse.cc:498:parse_blif$2730")
+          (instance (rename id00010 "$abc$2722$auto$blifparse.cc:498:parse_blif$2726")
+            (viewRef VIEW_NETLIST (cellRef LUT6 (libraryRef LIB)))
+            (property INIT (string "64'h0000000100000000")))
+          (instance (rename id00011 "$abc$2722$auto$blifparse.cc:498:parse_blif$2727.lut0.lut0")
             (viewRef VIEW_NETLIST (cellRef LUT6 (libraryRef LIB)))
             (property INIT (string "64'h0000000000000001")))
-          (instance (rename id00011 "$abc$2726$auto$blifparse.cc:498:parse_blif$2731.lut0.lut0")
-            (viewRef VIEW_NETLIST (cellRef LUT6 (libraryRef LIB)))
-            (property INIT (string "64'h0000000000000001")))
-          (instance (rename id00012 "$abc$2726$auto$blifparse.cc:498:parse_blif$2731.lut0.mux7")
+          (instance (rename id00012 "$abc$2722$auto$blifparse.cc:498:parse_blif$2727.lut0.mux7")
             (viewRef VIEW_NETLIST (cellRef MUXF7 (libraryRef LIB))))
-          (instance (rename id00013 "$abc$2726$auto$blifparse.cc:498:parse_blif$2731.lut1.mux7")
+          (instance (rename id00013 "$abc$2722$auto$blifparse.cc:498:parse_blif$2727.lut1.mux7")
             (viewRef VIEW_NETLIST (cellRef MUXF7 (libraryRef LIB))))
-          (instance (rename id00014 "$abc$2726$auto$blifparse.cc:498:parse_blif$2731.mux8")
+          (instance (rename id00014 "$abc$2722$auto$blifparse.cc:498:parse_blif$2727.mux8")
             (viewRef VIEW_NETLIST (cellRef MUXF8 (libraryRef LIB))))
-          (instance (rename id00015 "$abc$2726$auto$blifparse.cc:498:parse_blif$2732")
+          (instance (rename id00015 "$abc$2722$auto$blifparse.cc:498:parse_blif$2728")
             (viewRef VIEW_NETLIST (cellRef LUT2 (libraryRef LIB)))
             (property INIT (integer 7)))
-          (instance (rename id00016 "$abc$2726$auto$blifparse.cc:498:parse_blif$2733")
+          (instance (rename id00016 "$abc$2722$auto$blifparse.cc:498:parse_blif$2729")
             (viewRef VIEW_NETLIST (cellRef LUT5 (libraryRef LIB)))
             (property INIT (integer 65536)))
-          (instance (rename id00017 "$abc$2726$auto$blifparse.cc:498:parse_blif$2734")
+          (instance (rename id00017 "$abc$2722$auto$blifparse.cc:498:parse_blif$2730")
             (viewRef VIEW_NETLIST (cellRef LUT5 (libraryRef LIB)))
             (property INIT (integer 16777216)))
-          (instance (rename id00018 "$abc$2726$auto$blifparse.cc:498:parse_blif$2735")
+          (instance (rename id00018 "$abc$2722$auto$blifparse.cc:498:parse_blif$2731")
             (viewRef VIEW_NETLIST (cellRef LUT3 (libraryRef LIB)))
             (property INIT (integer 191)))
-          (instance (rename id00019 "$abc$2726$auto$blifparse.cc:498:parse_blif$2736")
+          (instance (rename id00019 "$abc$2722$auto$blifparse.cc:498:parse_blif$2732")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 1)))
-          (instance (rename id00020 "$abc$2726$auto$blifparse.cc:498:parse_blif$2737")
+          (instance (rename id00020 "$abc$2722$auto$blifparse.cc:498:parse_blif$2733")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 49151)))
-          (instance (rename id00021 "$abc$2726$auto$blifparse.cc:498:parse_blif$2738")
+          (instance (rename id00021 "$abc$2722$auto$blifparse.cc:498:parse_blif$2734")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 256)))
-          (instance (rename id00022 "$abc$2726$auto$blifparse.cc:498:parse_blif$2739")
+          (instance (rename id00022 "$abc$2722$auto$blifparse.cc:498:parse_blif$2735")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 256)))
-          (instance (rename id00023 "$abc$2726$auto$blifparse.cc:498:parse_blif$2740")
+          (instance (rename id00023 "$abc$2722$auto$blifparse.cc:498:parse_blif$2736")
             (viewRef VIEW_NETLIST (cellRef LUT3 (libraryRef LIB)))
-            (property INIT (integer 191)))
-          (instance (rename id00024 "$abc$2726$auto$blifparse.cc:498:parse_blif$2741")
+            (property INIT (integer 64)))
+          (instance (rename id00024 "$abc$2722$auto$blifparse.cc:498:parse_blif$2737")
             (viewRef VIEW_NETLIST (cellRef LUT3 (libraryRef LIB)))
             (property INIT (integer 1)))
-          (instance (rename id00025 "$abc$2726$auto$blifparse.cc:498:parse_blif$2742")
+          (instance (rename id00025 "$abc$2722$auto$blifparse.cc:498:parse_blif$2738")
             (viewRef VIEW_NETLIST (cellRef LUT6 (libraryRef LIB)))
             (property INIT (string "64'hf3fffff5ffffffff")))
-          (instance (rename id00026 "$abc$2726$auto$blifparse.cc:498:parse_blif$2743")
+          (instance (rename id00026 "$abc$2722$auto$blifparse.cc:498:parse_blif$2739")
             (viewRef VIEW_NETLIST (cellRef LUT3 (libraryRef LIB)))
             (property INIT (integer 1)))
-          (instance (rename id00027 "$abc$2726$auto$blifparse.cc:498:parse_blif$2744")
+          (instance (rename id00027 "$abc$2722$auto$blifparse.cc:498:parse_blif$2740")
             (viewRef VIEW_NETLIST (cellRef LUT3 (libraryRef LIB)))
             (property INIT (integer 191)))
-          (instance (rename id00028 "$abc$2726$auto$blifparse.cc:498:parse_blif$2745")
+          (instance (rename id00028 "$abc$2722$auto$blifparse.cc:498:parse_blif$2741")
             (viewRef VIEW_NETLIST (cellRef LUT6 (libraryRef LIB)))
             (property INIT (string "64'hf3f5ffffffffffff")))
-          (instance (rename id00029 "$abc$2726$auto$blifparse.cc:498:parse_blif$2746")
+          (instance (rename id00029 "$abc$2722$auto$blifparse.cc:498:parse_blif$2742")
             (viewRef VIEW_NETLIST (cellRef INV (libraryRef LIB))))
-          (instance (rename id00030 "$abc$2726$auto$blifparse.cc:498:parse_blif$2747")
+          (instance (rename id00030 "$abc$2722$auto$blifparse.cc:498:parse_blif$2743")
             (viewRef VIEW_NETLIST (cellRef INV (libraryRef LIB))))
-          (instance (rename id00031 "$abc$2726$auto$blifparse.cc:498:parse_blif$2749")
+          (instance (rename id00031 "$abc$2722$auto$blifparse.cc:498:parse_blif$2745")
             (viewRef VIEW_NETLIST (cellRef INV (libraryRef LIB))))
-          (instance (rename id00032 "$abc$2726$auto$blifparse.cc:498:parse_blif$2750")
+          (instance (rename id00032 "$abc$2722$auto$blifparse.cc:498:parse_blif$2746")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00033 "$abc$2726$auto$blifparse.cc:498:parse_blif$2751")
+          (instance (rename id00033 "$abc$2722$auto$blifparse.cc:498:parse_blif$2747")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00034 "$abc$2726$auto$blifparse.cc:498:parse_blif$2752")
+          (instance (rename id00034 "$abc$2722$auto$blifparse.cc:498:parse_blif$2748")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00035 "$abc$2726$auto$blifparse.cc:498:parse_blif$2753")
+          (instance (rename id00035 "$abc$2722$auto$blifparse.cc:498:parse_blif$2749")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00036 "$abc$2726$auto$blifparse.cc:498:parse_blif$2754")
+          (instance (rename id00036 "$abc$2722$auto$blifparse.cc:498:parse_blif$2750")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00037 "$abc$2726$auto$blifparse.cc:498:parse_blif$2755")
+          (instance (rename id00037 "$abc$2722$auto$blifparse.cc:498:parse_blif$2751")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00038 "$abc$2726$auto$blifparse.cc:498:parse_blif$2756")
+          (instance (rename id00038 "$abc$2722$auto$blifparse.cc:498:parse_blif$2752")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00039 "$abc$2726$auto$blifparse.cc:498:parse_blif$2757")
+          (instance (rename id00039 "$abc$2722$auto$blifparse.cc:498:parse_blif$2753")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00040 "$abc$2726$auto$blifparse.cc:498:parse_blif$2758")
+          (instance (rename id00040 "$abc$2722$auto$blifparse.cc:498:parse_blif$2754")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00041 "$abc$2726$auto$blifparse.cc:498:parse_blif$2759")
+          (instance (rename id00041 "$abc$2722$auto$blifparse.cc:498:parse_blif$2755")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00042 "$abc$2726$auto$blifparse.cc:498:parse_blif$2760")
+          (instance (rename id00042 "$abc$2722$auto$blifparse.cc:498:parse_blif$2756")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00043 "$abc$2726$auto$blifparse.cc:498:parse_blif$2761")
+          (instance (rename id00043 "$abc$2722$auto$blifparse.cc:498:parse_blif$2757")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00044 "$abc$2726$auto$blifparse.cc:498:parse_blif$2762")
+          (instance (rename id00044 "$abc$2722$auto$blifparse.cc:498:parse_blif$2758")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00045 "$abc$2726$auto$blifparse.cc:498:parse_blif$2763")
+          (instance (rename id00045 "$abc$2722$auto$blifparse.cc:498:parse_blif$2759")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00046 "$abc$2726$auto$blifparse.cc:498:parse_blif$2764")
+          (instance (rename id00046 "$abc$2722$auto$blifparse.cc:498:parse_blif$2760")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00047 "$abc$2726$auto$blifparse.cc:498:parse_blif$2765")
+          (instance (rename id00047 "$abc$2722$auto$blifparse.cc:498:parse_blif$2761")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00048 "$abc$2726$auto$blifparse.cc:498:parse_blif$2766")
+          (instance (rename id00048 "$abc$2722$auto$blifparse.cc:498:parse_blif$2762")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00049 "$abc$2726$auto$blifparse.cc:498:parse_blif$2767")
+          (instance (rename id00049 "$abc$2722$auto$blifparse.cc:498:parse_blif$2763")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00050 "$abc$2726$auto$blifparse.cc:498:parse_blif$2768")
+          (instance (rename id00050 "$abc$2722$auto$blifparse.cc:498:parse_blif$2764")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00051 "$abc$2726$auto$blifparse.cc:498:parse_blif$2769")
+          (instance (rename id00051 "$abc$2722$auto$blifparse.cc:498:parse_blif$2765")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00052 "$abc$2726$auto$blifparse.cc:498:parse_blif$2770")
+          (instance (rename id00052 "$abc$2722$auto$blifparse.cc:498:parse_blif$2766")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00053 "$abc$2726$auto$blifparse.cc:498:parse_blif$2771")
+          (instance (rename id00053 "$abc$2722$auto$blifparse.cc:498:parse_blif$2767")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00054 "$abc$2726$auto$blifparse.cc:498:parse_blif$2772")
+          (instance (rename id00054 "$abc$2722$auto$blifparse.cc:498:parse_blif$2768")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00055 "$abc$2726$auto$blifparse.cc:498:parse_blif$2773")
+          (instance (rename id00055 "$abc$2722$auto$blifparse.cc:498:parse_blif$2769")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00056 "$abc$2726$auto$blifparse.cc:498:parse_blif$2774")
+          (instance (rename id00056 "$abc$2722$auto$blifparse.cc:498:parse_blif$2770")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00057 "$abc$2726$auto$blifparse.cc:498:parse_blif$2775")
+          (instance (rename id00057 "$abc$2722$auto$blifparse.cc:498:parse_blif$2771")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00058 "$abc$2726$auto$blifparse.cc:498:parse_blif$2776")
+          (instance (rename id00058 "$abc$2722$auto$blifparse.cc:498:parse_blif$2772")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00059 "$abc$2726$auto$blifparse.cc:498:parse_blif$2777")
+          (instance (rename id00059 "$abc$2722$auto$blifparse.cc:498:parse_blif$2773")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
-          (instance (rename id00060 "$abc$2726$auto$blifparse.cc:498:parse_blif$2778")
+          (instance (rename id00060 "$abc$2722$auto$blifparse.cc:498:parse_blif$2774")
             (viewRef VIEW_NETLIST (cellRef LUT4 (libraryRef LIB)))
             (property INIT (integer 32768)))
           (instance (rename id00061 "$auto$alumacc.cc:485:replace_alu$1800.slice[0].carry4")
@@ -398,9 +398,9 @@
             (viewRef VIEW_NETLIST (cellRef CARRY4 (libraryRef LIB))))
           (instance (rename id00072 "$auto$alumacc.cc:485:replace_alu$1806.slice[7].carry4")
             (viewRef VIEW_NETLIST (cellRef CARRY4 (libraryRef LIB))))
-          (instance (rename id00073 "$auto$clkbufmap.cc:261:execute$2895")
+          (instance (rename id00073 "$auto$clkbufmap.cc:261:execute$2891")
             (viewRef VIEW_NETLIST (cellRef BUFG (libraryRef LIB))))
-          (instance (rename id00074 "$auto$clkbufmap.cc:261:execute$2897")
+          (instance (rename id00074 "$auto$clkbufmap.cc:261:execute$2893")
             (viewRef VIEW_NETLIST (cellRef BUFG (libraryRef LIB))))
           (instance (rename id00075 "$auto$simplemap.cc:420:simplemap_dff$2289")
             (viewRef VIEW_NETLIST (cellRef FDRE (libraryRef LIB)))
@@ -552,7 +552,7 @@
             (viewRef VIEW_NETLIST (cellRef LDCE (libraryRef LIB)))
             (property INIT (integer 0))
             (property IS_G_INVERTED (integer 1)))
-          (instance (rename id00123 "$auto$xilinx_dffopt.cc:338:execute$2893")
+          (instance (rename id00123 "$auto$xilinx_dffopt.cc:338:execute$2889")
             (viewRef VIEW_NETLIST (cellRef LUT5 (libraryRef LIB)))
             (property INIT (integer 2147450880)))
           (instance (rename id00124 "$iopadmap$HUB75Driver.JB")
@@ -748,13 +748,21 @@
               (portRef CYINIT (instanceRef id00071))
               (portRef CYINIT (instanceRef id00072))
               (portRef I (instanceRef id00124))
-              (portRef I (instanceRef id00128))
-              (portRef I (instanceRef id00129))
-              (portRef I (instanceRef id00130))
+              (portRef I (instanceRef id00125))
+              (portRef I (instanceRef id00126))
+              (portRef I (instanceRef id00127))
               (portRef I (instanceRef id00131))
-              (portRef I (instanceRef id00132))
-              (portRef I (instanceRef id00133))
-              (portRef I (instanceRef id00136))
+              (portRef I (instanceRef id00135))
+              (portRef I (instanceRef id00138))
+              (portRef I (instanceRef id00139))
+              (portRef I (instanceRef id00141))
+              (portRef I (instanceRef id00142))
+              (portRef I (instanceRef id00144))
+              (portRef I (instanceRef id00147))
+              (portRef I (instanceRef id00148))
+              (portRef I (instanceRef id00149))
+              (portRef I (instanceRef id00150))
+              (portRef I (instanceRef id00154))
               (portRef I0 (instanceRef id00004))
               (portRef I0 (instanceRef id00006))
               (portRef I0 (instanceRef id00008))
@@ -779,14 +787,14 @@
             (portRef G (instanceRef GND))
             )
           )
-          (net (rename id00157 "$abc$2726$auto$rtlil.cc:2281:NotGate$2711") (joined
-              (portRef O (instanceRef id00038))
-              (portRef R (instanceRef id00109))
+          (net (rename id00157 "$abc$2722$auto$rtlil.cc:2281:NotGate$2705") (joined
+              (portRef O (instanceRef id00039))
+              (portRef R (instanceRef id00108))
             )
           )
-          (net (rename id00158 "$abc$2726$auto$rtlil.cc:2281:NotGate$2713") (joined
-              (portRef O (instanceRef id00037))
-              (portRef R (instanceRef id00110))
+          (net (rename id00158 "$abc$2722$auto$rtlil.cc:2281:NotGate$2707") (joined
+              (portRef O (instanceRef id00038))
+              (portRef R (instanceRef id00109))
             )
           )
           (net (rename id00159 "$auto$alumacc.cc:485:replace_alu$1803.S[0]") (joined
@@ -829,33 +837,41 @@
               (portRef (member CO 1) (instanceRef id00064))
             )
           )
-          (net (rename id00168 "$abc$2726$auto$blifparse.cc:498:parse_blif$2731.f0") (joined
-              (portRef I0 (instanceRef id00014))
-              (portRef O (instanceRef id00012))
+          (net (rename id00168 "$abc$2722$auto$blifparse.cc:498:parse_blif$2725.f0") (joined
+              (portRef I0 (instanceRef id00009))
+              (portRef O (instanceRef id00006))
             )
           )
-          (net (rename id00169 "$abc$2726$auto$blifparse.cc:498:parse_blif$2728.lut0.f0") (joined
-              (portRef I0 (instanceRef id00003))
-              (portRef O (instanceRef id00002))
+          (net (rename id00169 "$abc$2722$auto$blifparse.cc:498:parse_blif$2724.f0") (joined
+              (portRef I0 (instanceRef id00005))
+              (portRef O (instanceRef id00003))
             )
           )
-          (net (rename id00170 "$auto$xilinx_dffopt.cc:347:execute$2894") (joined
-              (portRef D (instanceRef id00085))
-              (portRef O (instanceRef id00123))
+          (net (rename id00170 "$abc$2722$auto$simplemap.cc:256:simplemap_eqne$2156") (joined
+              (portRef G (instanceRef id00119))
+              (portRef G (instanceRef id00120))
+              (portRef G (instanceRef id00121))
+              (portRef O (instanceRef id00018))
             )
           )
-          (net (rename id00171 "$techmap2864$abc$2726$auto$blifparse.cc:498:parse_blif$2735.A[2]") (joined
+          (net (rename id00171 "$techmap2861$abc$2722$auto$blifparse.cc:498:parse_blif$2731.A[2]") (joined
               (portRef I0 (instanceRef id00015))
               (portRef I2 (instanceRef id00018))
               (portRef O (instanceRef id00016))
             )
           )
-          (net (rename id00172 "$abc$2726$auto$blifparse.cc:498:parse_blif$2731.lut0.f0") (joined
-              (portRef I0 (instanceRef id00012))
-              (portRef O (instanceRef id00011))
+          (net (rename id00172 "$techmap2859$abc$2722$auto$blifparse.cc:498:parse_blif$2736.A[2]") (joined
+              (portRef I1 (instanceRef id00015))
+              (portRef I2 (instanceRef id00023))
+              (portRef O (instanceRef id00017))
             )
           )
-          (net (rename id00173 "$iopadmap$clk") (joined
+          (net (rename id00173 "$abc$2722$auto$blifparse.cc:498:parse_blif$2725.lut1.f1") (joined
+              (portRef I1 (instanceRef id00008))
+              (portRef O (instanceRef id00007))
+            )
+          )
+          (net (rename id00174 "$iopadmap$clk") (joined
               (portRef C (instanceRef id00085))
               (portRef C (instanceRef id00087))
               (portRef C (instanceRef id00088))
@@ -890,85 +906,90 @@
               (portRef O (instanceRef id00073))
             )
           )
-          (net (rename id00174 "$abc$2726$auto$rtlil.cc:2281:NotGate$2701") (joined
-              (portRef O (instanceRef id00043))
-              (portRef R (instanceRef id00104))
+          (net (rename id00175 "$abc$2722$auto$rtlil.cc:2281:NotGate$2695") (joined
+              (portRef O (instanceRef id00044))
+              (portRef R (instanceRef id00103))
             )
           )
-          (net (rename id00175 "$abc$2726$auto$rtlil.cc:2281:NotGate$2709") (joined
-              (portRef O (instanceRef id00039))
-              (portRef R (instanceRef id00108))
+          (net (rename id00176 "$abc$2722$auto$rtlil.cc:2281:NotGate$2703") (joined
+              (portRef O (instanceRef id00040))
+              (portRef R (instanceRef id00107))
             )
           )
-          (net (rename id00176 "$abc$2726$auto$rtlil.cc:2125:ReduceOr$1661") (joined
+          (net (rename id00177 "$abc$2722$auto$rtlil.cc:2125:ReduceOr$1661") (joined
               (portRef G (instanceRef id00122))
               (portRef O (instanceRef id00028))
             )
           )
-          (net (rename id00177 "$abc$2726$auto$rtlil.cc:2125:ReduceOr$1633") (joined
-              (portRef G (instanceRef id00118))
-              (portRef O (instanceRef id00027))
-            )
-          )
-          (net (rename id00178 "$auto$clkbufmap.cc:262:execute$2896") (joined
-              (portRef I (instanceRef id00073))
-              (portRef O (instanceRef id00140))
-            )
-          )
-          (net (rename id00179 "$auto$clkbufmap.cc:262:execute$2898") (joined
+          (net (rename id00178 "$auto$clkbufmap.cc:262:execute$2894") (joined
               (portRef I (instanceRef id00074))
               (portRef Q (instanceRef id00085))
             )
           )
-          (net (rename id00180 "$procmux$1401.Y[6]") (joined
+          (net (rename id00179 "$procmux$1401.Y[6]") (joined
               (portRef D (instanceRef id00086))
               (portRef O (instanceRef id00024))
             )
           )
-          (net (rename id00181 "$abc$2726$auto$rtlil.cc:2125:ReduceOr$1616") (joined
-              (portRef G (instanceRef id00117))
-              (portRef O (instanceRef id00025))
+          (net (rename id00180 "$abc$2722$auto$rtlil.cc:2125:ReduceOr$1633") (joined
+              (portRef G (instanceRef id00118))
+              (portRef O (instanceRef id00027))
             )
           )
-          (net (rename id00182 "$abc$2726$auto$blifparse.cc:498:parse_blif$2729.f0") (joined
-              (portRef I0 (instanceRef id00009))
-              (portRef O (instanceRef id00006))
-            )
-          )
-          (net (rename id00183 "$abc$2726$auto$blifparse.cc:498:parse_blif$2731.f1") (joined
+          (net (rename id00181 "$abc$2722$auto$blifparse.cc:498:parse_blif$2727.f1") (joined
               (portRef I1 (instanceRef id00014))
               (portRef O (instanceRef id00013))
             )
           )
-          (net (rename id00184 "$abc$2726$auto$blifparse.cc:498:parse_blif$2728.f1") (joined
-              (portRef I1 (instanceRef id00005))
-              (portRef O (instanceRef id00004))
+          (net (rename id00182 "$abc$2722$auto$blifparse.cc:498:parse_blif$2727.f0") (joined
+              (portRef I0 (instanceRef id00014))
+              (portRef O (instanceRef id00012))
             )
           )
-          (net (rename id00185 "$abc$2726$auto$blifparse.cc:498:parse_blif$2728.f0") (joined
-              (portRef I0 (instanceRef id00005))
-              (portRef O (instanceRef id00003))
-            )
-          )
-          (net (rename id00186 "$abc$2726$auto$blifparse.cc:498:parse_blif$2729.f1") (joined
+          (net (rename id00183 "$abc$2722$auto$blifparse.cc:498:parse_blif$2725.f1") (joined
               (portRef I1 (instanceRef id00009))
               (portRef O (instanceRef id00008))
             )
           )
-          (net (rename id00187 "$techmap2858$abc$2726$auto$blifparse.cc:498:parse_blif$2744.A[1]") (joined
+          (net (rename id00184 "$abc$2722$auto$blifparse.cc:498:parse_blif$2724.f1") (joined
+              (portRef I1 (instanceRef id00005))
+              (portRef O (instanceRef id00004))
+            )
+          )
+          (net (rename id00185 "$techmap2852$abc$2722$auto$blifparse.cc:498:parse_blif$2733.A[1]") (joined
               (portRef I1 (instanceRef id00020))
               (portRef I1 (instanceRef id00023))
               (portRef I1 (instanceRef id00027))
               (portRef O (instanceRef id00022))
             )
           )
-          (net (rename id00188 "$techmap2861$abc$2726$auto$blifparse.cc:498:parse_blif$2740.A[2]") (joined
-              (portRef I1 (instanceRef id00015))
-              (portRef I2 (instanceRef id00023))
-              (portRef O (instanceRef id00017))
+          (net (rename id00186 "$techmap2852$abc$2722$auto$blifparse.cc:498:parse_blif$2733.A[2]") (joined
+              (portRef I1 (instanceRef id00025))
+              (portRef I1 (instanceRef id00028))
+              (portRef I2 (instanceRef id00020))
+              (portRef I2 (instanceRef id00027))
+              (portRef O (instanceRef id00021))
             )
           )
-          (net (rename id00189 "$techmap2833$abc$2726$auto$blifparse.cc:498:parse_blif$2775.A[0]") (joined
+          (net (rename id00187 "$techmap2855$abc$2722$auto$blifparse.cc:498:parse_blif$2741.A[0]") (joined
+              (portRef I0 (instanceRef id00025))
+              (portRef I0 (instanceRef id00028))
+              (portRef I1 (instanceRef id00018))
+              (portRef O (instanceRef id00019))
+            )
+          )
+          (net (rename id00188 "$techmap2855$abc$2722$auto$blifparse.cc:498:parse_blif$2741.A[4]") (joined
+              (portRef I4 (instanceRef id00028))
+              (portRef I5 (instanceRef id00025))
+              (portRef O (instanceRef id00026))
+            )
+          )
+          (net (rename id00189 "$abc$2722$auto$blifparse.cc:498:parse_blif$2724.lut0.f0") (joined
+              (portRef I0 (instanceRef id00003))
+              (portRef O (instanceRef id00002))
+            )
+          )
+          (net (rename id00190 "$techmap2829$abc$2722$auto$blifparse.cc:498:parse_blif$2772.A[0]") (joined
               (portRef I0 (instanceRef id00001))
               (portRef I0 (instanceRef id00032))
               (portRef I0 (instanceRef id00033))
@@ -1003,7 +1024,7 @@
               (portRef O (instanceRef id00005))
             )
           )
-          (net (rename id00190 "$techmap2833$abc$2726$auto$blifparse.cc:498:parse_blif$2775.A[1]") (joined
+          (net (rename id00191 "$techmap2829$abc$2722$auto$blifparse.cc:498:parse_blif$2772.A[1]") (joined
               (portRef I1 (instanceRef id00001))
               (portRef I1 (instanceRef id00032))
               (portRef I1 (instanceRef id00033))
@@ -1038,7 +1059,7 @@
               (portRef O (instanceRef id00009))
             )
           )
-          (net (rename id00191 "$techmap2833$abc$2726$auto$blifparse.cc:498:parse_blif$2775.A[2]") (joined
+          (net (rename id00192 "$techmap2829$abc$2722$auto$blifparse.cc:498:parse_blif$2772.A[2]") (joined
               (portRef I1 (instanceRef id00123))
               (portRef I2 (instanceRef id00001))
               (portRef I2 (instanceRef id00032))
@@ -1073,7 +1094,7 @@
               (portRef O (instanceRef id00010))
             )
           )
-          (net (rename id00192 "$techmap2833$abc$2726$auto$blifparse.cc:498:parse_blif$2775.A[3]") (joined
+          (net (rename id00193 "$techmap2829$abc$2722$auto$blifparse.cc:498:parse_blif$2772.A[3]") (joined
               (portRef I0 (instanceRef id00123))
               (portRef I3 (instanceRef id00001))
               (portRef I3 (instanceRef id00032))
@@ -1108,201 +1129,182 @@
               (portRef O (instanceRef id00014))
             )
           )
-          (net (rename id00193 "$abc$2726$auto$blifparse.cc:498:parse_blif$2729.lut1.f1") (joined
-              (portRef I1 (instanceRef id00008))
-              (portRef O (instanceRef id00007))
+          (net (rename id00194 "$abc$2722$auto$blifparse.cc:498:parse_blif$2727.lut0.f0") (joined
+              (portRef I0 (instanceRef id00012))
+              (portRef O (instanceRef id00011))
             )
           )
-          (net (rename id00194 "$techmap2843$abc$2726$auto$blifparse.cc:498:parse_blif$2745.A[1]") (joined
-              (portRef I1 (instanceRef id00025))
-              (portRef I1 (instanceRef id00028))
-              (portRef I2 (instanceRef id00020))
-              (portRef I2 (instanceRef id00027))
-              (portRef O (instanceRef id00021))
-            )
-          )
-          (net (rename id00195 "$techmap2843$abc$2726$auto$blifparse.cc:498:parse_blif$2745.A[0]") (joined
-              (portRef I0 (instanceRef id00025))
-              (portRef I0 (instanceRef id00028))
-              (portRef I1 (instanceRef id00018))
-              (portRef O (instanceRef id00019))
-            )
-          )
-          (net (rename id00196 "$techmap2843$abc$2726$auto$blifparse.cc:498:parse_blif$2745.A[4]") (joined
-              (portRef I4 (instanceRef id00028))
-              (portRef I5 (instanceRef id00025))
-              (portRef O (instanceRef id00026))
-            )
-          )
-          (net (rename id00197 "JB[0]") (joined
+          (net (rename id00195 "JB[0]") (joined
               (portRef (member JB 7))
               (portRef O (instanceRef id00124))
             )
           )
-          (net (rename id00198 "JB[1]") (joined
+          (net (rename id00196 "JB[1]") (joined
               (portRef (member JB 6))
               (portRef O (instanceRef id00125))
             )
           )
-          (net (rename id00199 "JB[2]") (joined
+          (net (rename id00197 "JB[2]") (joined
               (portRef (member JB 5))
               (portRef O (instanceRef id00126))
             )
           )
-          (net (rename id00200 "JB[3]") (joined
+          (net (rename id00198 "JB[3]") (joined
               (portRef (member JB 4))
               (portRef O (instanceRef id00127))
             )
           )
-          (net (rename id00201 "JB[4]") (joined
+          (net (rename id00199 "JB[4]") (joined
               (portRef (member JB 3))
               (portRef O (instanceRef id00128))
             )
           )
-          (net (rename id00202 "JB[5]") (joined
+          (net (rename id00200 "JB[5]") (joined
               (portRef (member JB 2))
               (portRef O (instanceRef id00129))
             )
           )
-          (net (rename id00203 "JB[6]") (joined
+          (net (rename id00201 "JB[6]") (joined
               (portRef (member JB 1))
               (portRef O (instanceRef id00130))
             )
           )
-          (net (rename id00204 "JB[7]") (joined
+          (net (rename id00202 "JB[7]") (joined
               (portRef (member JB 0))
               (portRef O (instanceRef id00131))
             )
           )
-          (net (rename id00205 "led[10]") (joined
+          (net (rename id00203 "led[10]") (joined
               (portRef (member led 5))
               (portRef O (instanceRef id00143))
             )
           )
-          (net (rename id00206 "led[11]") (joined
+          (net (rename id00204 "led[11]") (joined
               (portRef (member led 4))
               (portRef O (instanceRef id00144))
             )
           )
-          (net (rename id00207 "led[8]") (joined
+          (net (rename id00205 "led[8]") (joined
               (portRef (member led 7))
               (portRef O (instanceRef id00155))
             )
           )
-          (net (rename id00208 "led[9]") (joined
+          (net (rename id00206 "led[9]") (joined
               (portRef (member led 6))
               (portRef O (instanceRef id00156))
             )
           )
-          (net (rename id00209 "led[14]") (joined
+          (net (rename id00207 "led[14]") (joined
               (portRef (member led 1))
               (portRef O (instanceRef id00147))
             )
           )
-          (net (rename id00210 "led[15]") (joined
+          (net (rename id00208 "led[15]") (joined
               (portRef (member led 0))
               (portRef O (instanceRef id00148))
             )
           )
-          (net (rename id00211 "led[12]") (joined
+          (net (rename id00209 "led[12]") (joined
               (portRef (member led 3))
               (portRef O (instanceRef id00145))
             )
           )
-          (net (rename id00212 "led[13]") (joined
+          (net (rename id00210 "led[13]") (joined
               (portRef (member led 2))
               (portRef O (instanceRef id00146))
             )
           )
-          (net (rename id00213 "led[2]") (joined
+          (net (rename id00211 "led[2]") (joined
               (portRef (member led 13))
               (portRef O (instanceRef id00149))
             )
           )
-          (net (rename id00214 "led[3]") (joined
+          (net (rename id00212 "led[3]") (joined
               (portRef (member led 12))
               (portRef O (instanceRef id00150))
             )
           )
-          (net (rename id00215 "led[0]") (joined
+          (net (rename id00213 "led[0]") (joined
               (portRef (member led 15))
               (portRef O (instanceRef id00141))
             )
           )
-          (net (rename id00216 "led[1]") (joined
+          (net (rename id00214 "led[1]") (joined
               (portRef (member led 14))
               (portRef O (instanceRef id00142))
             )
           )
-          (net (rename id00217 "led[6]") (joined
+          (net (rename id00215 "led[6]") (joined
               (portRef (member led 9))
               (portRef O (instanceRef id00153))
             )
           )
-          (net (rename id00218 "led[7]") (joined
+          (net (rename id00216 "led[7]") (joined
               (portRef (member led 8))
               (portRef O (instanceRef id00154))
             )
           )
-          (net (rename id00219 "led[4]") (joined
+          (net (rename id00217 "led[4]") (joined
               (portRef (member led 11))
               (portRef O (instanceRef id00151))
             )
           )
-          (net (rename id00220 "led[5]") (joined
+          (net (rename id00218 "led[5]") (joined
               (portRef (member led 10))
               (portRef O (instanceRef id00152))
             )
           )
-          (net (rename id00221 "JC[3]") (joined
+          (net (rename id00219 "JC[3]") (joined
               (portRef (member JC 4))
               (portRef O (instanceRef id00135))
             )
           )
-          (net (rename id00222 "JC[2]") (joined
+          (net (rename id00220 "JC[2]") (joined
               (portRef (member JC 5))
               (portRef O (instanceRef id00134))
             )
           )
-          (net (rename id00223 "JC[1]") (joined
+          (net (rename id00221 "JC[1]") (joined
               (portRef (member JC 6))
               (portRef O (instanceRef id00133))
             )
           )
-          (net (rename id00224 "JC[0]") (joined
+          (net (rename id00222 "JC[0]") (joined
               (portRef (member JC 7))
               (portRef O (instanceRef id00132))
             )
           )
-          (net (rename id00225 "JC[7]") (joined
+          (net (rename id00223 "JC[7]") (joined
               (portRef (member JC 0))
               (portRef O (instanceRef id00139))
             )
           )
-          (net (rename id00226 "JC[6]") (joined
+          (net (rename id00224 "JC[6]") (joined
               (portRef (member JC 1))
               (portRef O (instanceRef id00138))
             )
           )
-          (net (rename id00227 "JC[5]") (joined
+          (net (rename id00225 "JC[5]") (joined
               (portRef (member JC 2))
               (portRef O (instanceRef id00137))
             )
           )
-          (net (rename id00228 "JC[4]") (joined
+          (net (rename id00226 "JC[4]") (joined
               (portRef (member JC 3))
               (portRef O (instanceRef id00136))
             )
           )
           (net BL (joined
-              (portRef I (instanceRef id00135))
+              (portRef I (instanceRef id00136))
+              (portRef I (instanceRef id00145))
               (portRef Q (instanceRef id00117))
             )
           )
           (net A0 (joined
               (portRef I (instanceRef id00029))
-              (portRef I (instanceRef id00139))
-              (portRef I1 (instanceRef id00024))
+              (portRef I (instanceRef id00132))
+              (portRef I (instanceRef id00155))
+              (portRef I2 (instanceRef id00024))
               (portRef Q (instanceRef id00119))
             )
           )
@@ -1313,27 +1315,33 @@
           )
           (net A2 (joined
               (portRef (member S 1) (instanceRef id00064))
-              (portRef I (instanceRef id00137))
+              (portRef I (instanceRef id00134))
+              (portRef I (instanceRef id00143))
               (portRef I0 (instanceRef id00024))
               (portRef Q (instanceRef id00121))
             )
           )
           (net A1 (joined
               (portRef (member S 2) (instanceRef id00064))
-              (portRef I (instanceRef id00138))
-              (portRef I2 (instanceRef id00024))
+              (portRef I (instanceRef id00133))
+              (portRef I (instanceRef id00156))
+              (portRef I1 (instanceRef id00024))
               (portRef Q (instanceRef id00120))
             )
           )
           (net B1 (joined
-              (portRef I (instanceRef id00125))
-              (portRef I (instanceRef id00126))
-              (portRef I (instanceRef id00127))
+              (portRef I (instanceRef id00128))
+              (portRef I (instanceRef id00129))
+              (portRef I (instanceRef id00130))
+              (portRef I (instanceRef id00151))
+              (portRef I (instanceRef id00152))
+              (portRef I (instanceRef id00153))
               (portRef Q (instanceRef id00086))
             )
           )
           (net LA (joined
-              (portRef I (instanceRef id00134))
+              (portRef I (instanceRef id00137))
+              (portRef I (instanceRef id00146))
               (portRef Q (instanceRef id00118))
             )
           )
@@ -1342,206 +1350,190 @@
               (portRef Q (instanceRef id00122))
             )
           )
-          (net (rename id00229 "clockDivider[20]") (joined
+          (net (rename id00227 "clockDivider[20]") (joined
               (portRef (member S 3) (instanceRef id00070))
-              (portRef I (instanceRef id00153))
+              (portRef I1 (instanceRef id00002))
               (portRef Q (instanceRef id00107))
-              (portRef S (instanceRef id00014))
             )
           )
-          (net (rename id00230 "clockDivider[21]") (joined
+          (net (rename id00228 "clockDivider[21]") (joined
               (portRef (member S 2) (instanceRef id00070))
-              (portRef I (instanceRef id00154))
-              (portRef I0 (instanceRef id00002))
+              (portRef I2 (instanceRef id00002))
               (portRef Q (instanceRef id00108))
             )
           )
-          (net (rename id00231 "clockDivider[22]") (joined
+          (net (rename id00229 "clockDivider[22]") (joined
               (portRef (member S 1) (instanceRef id00070))
-              (portRef I (instanceRef id00155))
+              (portRef I3 (instanceRef id00002))
               (portRef Q (instanceRef id00109))
-              (portRef S (instanceRef id00009))
             )
           )
-          (net (rename id00232 "clockDivider[23]") (joined
+          (net (rename id00230 "clockDivider[23]") (joined
               (portRef (member S 0) (instanceRef id00070))
-              (portRef I (instanceRef id00156))
-              (portRef I1 (instanceRef id00002))
+              (portRef I4 (instanceRef id00002))
               (portRef Q (instanceRef id00110))
             )
           )
-          (net (rename id00233 "clockDivider[16]") (joined
+          (net (rename id00231 "clockDivider[16]") (joined
               (portRef (member S 3) (instanceRef id00069))
-              (portRef I (instanceRef id00149))
               (portRef I5 (instanceRef id00011))
               (portRef Q (instanceRef id00103))
             )
           )
-          (net (rename id00234 "clockDivider[17]") (joined
+          (net (rename id00232 "clockDivider[17]") (joined
               (portRef (member S 2) (instanceRef id00069))
-              (portRef I (instanceRef id00150))
               (portRef Q (instanceRef id00104))
               (portRef S (instanceRef id00012))
               (portRef S (instanceRef id00013))
             )
           )
-          (net (rename id00235 "clockDivider[18]") (joined
+          (net (rename id00233 "clockDivider[18]") (joined
               (portRef (member S 1) (instanceRef id00069))
-              (portRef I (instanceRef id00151))
-              (portRef I5 (instanceRef id00007))
               (portRef Q (instanceRef id00105))
+              (portRef S (instanceRef id00014))
             )
           )
-          (net (rename id00236 "clockDivider[19]") (joined
+          (net (rename id00234 "clockDivider[19]") (joined
               (portRef (member S 0) (instanceRef id00069))
-              (portRef I (instanceRef id00152))
+              (portRef I0 (instanceRef id00002))
               (portRef Q (instanceRef id00106))
-              (portRef S (instanceRef id00006))
-              (portRef S (instanceRef id00008))
             )
           )
-          (net (rename id00237 "clockDivider[28]") (joined
+          (net (rename id00235 "clockDivider[28]") (joined
               (portRef (member S 3) (instanceRef id00072))
-              (portRef I (instanceRef id00147))
+              (portRef I1 (instanceRef id00007))
               (portRef Q (instanceRef id00115))
+            )
+          )
+          (net (rename id00236 "clockDivider[29]") (joined
+              (portRef (member S 2) (instanceRef id00072))
+              (portRef I2 (instanceRef id00007))
+              (portRef Q (instanceRef id00116))
+            )
+          )
+          (net (rename id00237 "clockDivider[24]") (joined
+              (portRef (member S 3) (instanceRef id00071))
+              (portRef I5 (instanceRef id00002))
+              (portRef Q (instanceRef id00111))
+            )
+          )
+          (net (rename id00238 "clockDivider[25]") (joined
+              (portRef (member S 2) (instanceRef id00071))
+              (portRef Q (instanceRef id00112))
               (portRef S (instanceRef id00003))
               (portRef S (instanceRef id00004))
             )
           )
-          (net (rename id00238 "clockDivider[29]") (joined
-              (portRef (member S 2) (instanceRef id00072))
-              (portRef I (instanceRef id00148))
-              (portRef Q (instanceRef id00116))
+          (net (rename id00239 "clockDivider[26]") (joined
+              (portRef (member S 1) (instanceRef id00071))
+              (portRef Q (instanceRef id00113))
               (portRef S (instanceRef id00005))
             )
           )
-          (net (rename id00239 "clockDivider[24]") (joined
-              (portRef (member S 3) (instanceRef id00071))
-              (portRef I (instanceRef id00143))
-              (portRef I2 (instanceRef id00002))
-              (portRef Q (instanceRef id00111))
-            )
-          )
-          (net (rename id00240 "clockDivider[25]") (joined
-              (portRef (member S 2) (instanceRef id00071))
-              (portRef I (instanceRef id00144))
-              (portRef I3 (instanceRef id00002))
-              (portRef Q (instanceRef id00112))
-            )
-          )
-          (net (rename id00241 "clockDivider[26]") (joined
-              (portRef (member S 1) (instanceRef id00071))
-              (portRef I (instanceRef id00145))
-              (portRef I4 (instanceRef id00002))
-              (portRef Q (instanceRef id00113))
-            )
-          )
-          (net (rename id00242 "clockDivider[27]") (joined
+          (net (rename id00240 "clockDivider[27]") (joined
               (portRef (member S 0) (instanceRef id00071))
-              (portRef I (instanceRef id00146))
-              (portRef I5 (instanceRef id00002))
+              (portRef I0 (instanceRef id00007))
               (portRef Q (instanceRef id00114))
             )
           )
-          (net (rename id00243 "clockDivider[4]") (joined
+          (net (rename id00241 "clockDivider[4]") (joined
               (portRef (member S 3) (instanceRef id00066))
-              (portRef I4 (instanceRef id00010))
+              (portRef I3 (instanceRef id00007))
               (portRef Q (instanceRef id00091))
             )
           )
-          (net (rename id00244 "clockDivider[5]") (joined
+          (net (rename id00242 "clockDivider[5]") (joined
               (portRef (member S 2) (instanceRef id00066))
-              (portRef I5 (instanceRef id00010))
+              (portRef I4 (instanceRef id00010))
               (portRef Q (instanceRef id00092))
             )
           )
-          (net (rename id00245 "clockDivider[6]") (joined
+          (net (rename id00243 "clockDivider[6]") (joined
               (portRef (member S 1) (instanceRef id00066))
-              (portRef I0 (instanceRef id00007))
+              (portRef I4 (instanceRef id00007))
               (portRef Q (instanceRef id00093))
             )
           )
-          (net (rename id00246 "clockDivider[7]") (joined
+          (net (rename id00244 "clockDivider[7]") (joined
               (portRef (member S 0) (instanceRef id00066))
               (portRef I0 (instanceRef id00011))
               (portRef Q (instanceRef id00094))
             )
           )
-          (net (rename id00247 "clockDivider[0]") (joined
+          (net (rename id00245 "clockDivider[0]") (joined
               (portRef I (instanceRef id00031))
               (portRef I0 (instanceRef id00010))
               (portRef Q (instanceRef id00087))
             )
           )
-          (net (rename id00248 "clockDivider[1]") (joined
+          (net (rename id00246 "clockDivider[1]") (joined
               (portRef (member S 2) (instanceRef id00065))
               (portRef I1 (instanceRef id00010))
               (portRef Q (instanceRef id00088))
             )
           )
-          (net (rename id00249 "clockDivider[2]") (joined
+          (net (rename id00247 "clockDivider[2]") (joined
               (portRef (member S 1) (instanceRef id00065))
               (portRef I2 (instanceRef id00010))
               (portRef Q (instanceRef id00089))
             )
           )
-          (net (rename id00250 "clockDivider[3]") (joined
+          (net (rename id00248 "clockDivider[3]") (joined
               (portRef (member S 0) (instanceRef id00065))
               (portRef I3 (instanceRef id00010))
               (portRef Q (instanceRef id00090))
             )
           )
-          (net (rename id00251 "clockDivider[12]") (joined
+          (net (rename id00249 "clockDivider[12]") (joined
               (portRef (member S 3) (instanceRef id00068))
-              (portRef I2 (instanceRef id00011))
+              (portRef I3 (instanceRef id00011))
               (portRef Q (instanceRef id00099))
             )
           )
-          (net (rename id00252 "clockDivider[13]") (joined
+          (net (rename id00250 "clockDivider[13]") (joined
               (portRef (member S 2) (instanceRef id00068))
-              (portRef I3 (instanceRef id00011))
+              (portRef I4 (instanceRef id00011))
               (portRef Q (instanceRef id00100))
             )
           )
-          (net (rename id00253 "clockDivider[14]") (joined
+          (net (rename id00251 "clockDivider[14]") (joined
               (portRef (member S 1) (instanceRef id00068))
-              (portRef I (instanceRef id00141))
-              (portRef I4 (instanceRef id00007))
+              (portRef I5 (instanceRef id00010))
               (portRef Q (instanceRef id00101))
             )
           )
-          (net (rename id00254 "clockDivider[15]") (joined
+          (net (rename id00252 "clockDivider[15]") (joined
               (portRef (member S 0) (instanceRef id00068))
-              (portRef I (instanceRef id00142))
-              (portRef I4 (instanceRef id00011))
               (portRef Q (instanceRef id00102))
+              (portRef S (instanceRef id00009))
             )
           )
-          (net (rename id00255 "clockDivider[8]") (joined
+          (net (rename id00253 "clockDivider[8]") (joined
               (portRef (member S 3) (instanceRef id00067))
-              (portRef I1 (instanceRef id00007))
+              (portRef I5 (instanceRef id00007))
               (portRef Q (instanceRef id00095))
             )
           )
-          (net (rename id00256 "clockDivider[9]") (joined
+          (net (rename id00254 "clockDivider[9]") (joined
               (portRef (member S 2) (instanceRef id00067))
-              (portRef I2 (instanceRef id00007))
               (portRef Q (instanceRef id00096))
+              (portRef S (instanceRef id00006))
+              (portRef S (instanceRef id00008))
             )
           )
-          (net (rename id00257 "clockDivider[10]") (joined
+          (net (rename id00255 "clockDivider[10]") (joined
               (portRef (member S 1) (instanceRef id00067))
               (portRef I1 (instanceRef id00011))
               (portRef Q (instanceRef id00097))
             )
           )
-          (net (rename id00258 "clockDivider[11]") (joined
+          (net (rename id00256 "clockDivider[11]") (joined
               (portRef (member S 0) (instanceRef id00067))
-              (portRef I3 (instanceRef id00007))
+              (portRef I2 (instanceRef id00011))
               (portRef Q (instanceRef id00098))
             )
           )
-          (net (rename id00259 "clockCounter[6]") (joined
+          (net (rename id00257 "clockCounter[6]") (joined
               (portRef (member S 1) (instanceRef id00062))
               (portRef I1 (instanceRef id00017))
               (portRef I1 (instanceRef id00021))
@@ -1549,7 +1541,7 @@
               (portRef Q (instanceRef id00081))
             )
           )
-          (net (rename id00260 "clockCounter[7]") (joined
+          (net (rename id00258 "clockCounter[7]") (joined
               (portRef (member S 0) (instanceRef id00062))
               (portRef I2 (instanceRef id00017))
               (portRef I2 (instanceRef id00021))
@@ -1557,7 +1549,7 @@
               (portRef Q (instanceRef id00082))
             )
           )
-          (net (rename id00261 "clockCounter[4]") (joined
+          (net (rename id00259 "clockCounter[4]") (joined
               (portRef (member S 3) (instanceRef id00062))
               (portRef I0 (instanceRef id00017))
               (portRef I0 (instanceRef id00021))
@@ -1565,7 +1557,7 @@
               (portRef Q (instanceRef id00079))
             )
           )
-          (net (rename id00262 "clockCounter[5]") (joined
+          (net (rename id00260 "clockCounter[5]") (joined
               (portRef (member S 2) (instanceRef id00062))
               (portRef I0 (instanceRef id00019))
               (portRef I3 (instanceRef id00017))
@@ -1573,7 +1565,7 @@
               (portRef Q (instanceRef id00080))
             )
           )
-          (net (rename id00263 "clockCounter[2]") (joined
+          (net (rename id00261 "clockCounter[2]") (joined
               (portRef (member S 1) (instanceRef id00061))
               (portRef I0 (instanceRef id00022))
               (portRef I0 (instanceRef id00026))
@@ -1581,7 +1573,7 @@
               (portRef Q (instanceRef id00077))
             )
           )
-          (net (rename id00264 "clockCounter[3]") (joined
+          (net (rename id00262 "clockCounter[3]") (joined
               (portRef (member S 0) (instanceRef id00061))
               (portRef I0 (instanceRef id00016))
               (portRef I2 (instanceRef id00028))
@@ -1590,7 +1582,7 @@
               (portRef Q (instanceRef id00078))
             )
           )
-          (net (rename id00265 "clockCounter[0]") (joined
+          (net (rename id00263 "clockCounter[0]") (joined
               (portRef I (instanceRef id00030))
               (portRef I0 (instanceRef id00023))
               (portRef I2 (instanceRef id00025))
@@ -1600,7 +1592,7 @@
               (portRef Q (instanceRef id00075))
             )
           )
-          (net (rename id00266 "clockCounter[1]") (joined
+          (net (rename id00264 "clockCounter[1]") (joined
               (portRef (member S 2) (instanceRef id00061))
               (portRef I0 (instanceRef id00018))
               (portRef I0 (instanceRef id00020))
@@ -1611,7 +1603,7 @@
               (portRef Q (instanceRef id00076))
             )
           )
-          (net (rename id00267 "clockCounter[8]") (joined
+          (net (rename id00265 "clockCounter[8]") (joined
               (portRef (member S 3) (instanceRef id00063))
               (portRef I1 (instanceRef id00022))
               (portRef I1 (instanceRef id00026))
@@ -1619,7 +1611,7 @@
               (portRef Q (instanceRef id00083))
             )
           )
-          (net (rename id00268 "clockCounter[9]") (joined
+          (net (rename id00266 "clockCounter[9]") (joined
               (portRef (member S 2) (instanceRef id00063))
               (portRef I2 (instanceRef id00022))
               (portRef I2 (instanceRef id00026))
@@ -1643,232 +1635,242 @@
               (portRef O (instanceRef id00074))
             )
           )
-          (net (rename id00269 "$abc$2726$auto$rtlil.cc:2281:NotGate$2723") (joined
-              (portRef O (instanceRef id00032))
-              (portRef R (instanceRef id00115))
+          (net (rename id00267 "$auto$xilinx_dffopt.cc:347:execute$2890") (joined
+              (portRef D (instanceRef id00085))
+              (portRef O (instanceRef id00123))
             )
           )
-          (net (rename id00270 "$abc$2726$auto$rtlil.cc:2281:NotGate$2721") (joined
+          (net (rename id00268 "$abc$2722$auto$rtlil.cc:2281:NotGate$2717") (joined
               (portRef O (instanceRef id00033))
               (portRef R (instanceRef id00114))
             )
           )
-          (net (rename id00271 "$abc$2726$auto$rtlil.cc:2281:NotGate$2717") (joined
-              (portRef O (instanceRef id00035))
-              (portRef R (instanceRef id00112))
-            )
-          )
-          (net (rename id00272 "$abc$2726$auto$rtlil.cc:2281:NotGate$2715") (joined
-              (portRef O (instanceRef id00036))
-              (portRef R (instanceRef id00111))
-            )
-          )
-          (net (rename id00273 "$abc$2726$auto$rtlil.cc:2281:NotGate$2719") (joined
+          (net (rename id00269 "$abc$2722$auto$rtlil.cc:2281:NotGate$2715") (joined
               (portRef O (instanceRef id00034))
               (portRef R (instanceRef id00113))
             )
           )
-          (net (rename id00274 "$abc$2726$auto$rtlil.cc:2281:NotGate$2689") (joined
-              (portRef O (instanceRef id00049))
-              (portRef R (instanceRef id00098))
+          (net (rename id00270 "$abc$2722$auto$rtlil.cc:2281:NotGate$2711") (joined
+              (portRef O (instanceRef id00036))
+              (portRef R (instanceRef id00111))
             )
           )
-          (net (rename id00275 "$abc$2726$auto$rtlil.cc:2281:NotGate$2697") (joined
-              (portRef O (instanceRef id00045))
-              (portRef R (instanceRef id00102))
+          (net (rename id00271 "$abc$2722$auto$rtlil.cc:2281:NotGate$2709") (joined
+              (portRef O (instanceRef id00037))
+              (portRef R (instanceRef id00110))
             )
           )
-          (net (rename id00276 "$abc$2726$auto$rtlil.cc:2281:NotGate$2691") (joined
-              (portRef O (instanceRef id00048))
-              (portRef R (instanceRef id00099))
+          (net (rename id00272 "$abc$2722$auto$rtlil.cc:2281:NotGate$2713") (joined
+              (portRef O (instanceRef id00035))
+              (portRef R (instanceRef id00112))
             )
           )
-          (net (rename id00277 "$abc$2726$auto$rtlil.cc:2281:NotGate$2699") (joined
-              (portRef O (instanceRef id00044))
-              (portRef R (instanceRef id00103))
-            )
-          )
-          (net (rename id00278 "$auto$alumacc.cc:485:replace_alu$1806.S[0]") (joined
-              (portRef (member S 3) (instanceRef id00065))
-              (portRef O (instanceRef id00031))
-            )
-          )
-          (net (rename id00279 "$abc$2726$auto$rtlil.cc:2281:NotGate$2687") (joined
+          (net (rename id00273 "$abc$2722$auto$rtlil.cc:2281:NotGate$2683") (joined
               (portRef O (instanceRef id00050))
               (portRef R (instanceRef id00097))
             )
           )
-          (net (rename id00280 "$abc$2726$auto$rtlil.cc:2281:NotGate$2685") (joined
-              (portRef O (instanceRef id00051))
-              (portRef R (instanceRef id00096))
-            )
-          )
-          (net (rename id00281 "$abc$2726$auto$rtlil.cc:2281:NotGate$2695") (joined
+          (net (rename id00274 "$abc$2722$auto$rtlil.cc:2281:NotGate$2691") (joined
               (portRef O (instanceRef id00046))
               (portRef R (instanceRef id00101))
             )
           )
-          (net (rename id00282 "$abc$2726$auto$rtlil.cc:2281:NotGate$2725") (joined
-              (portRef O (instanceRef id00001))
-              (portRef R (instanceRef id00116))
+          (net (rename id00275 "$abc$2722$auto$rtlil.cc:2281:NotGate$2685") (joined
+              (portRef O (instanceRef id00049))
+              (portRef R (instanceRef id00098))
             )
           )
-          (net (rename id00283 "$auto$alumacc.cc:485:replace_alu$1806.O[20]") (joined
+          (net (rename id00276 "$abc$2722$auto$rtlil.cc:2281:NotGate$2693") (joined
+              (portRef O (instanceRef id00045))
+              (portRef R (instanceRef id00102))
+            )
+          )
+          (net (rename id00277 "$auto$alumacc.cc:485:replace_alu$1806.S[0]") (joined
+              (portRef (member S 3) (instanceRef id00065))
+              (portRef O (instanceRef id00031))
+            )
+          )
+          (net (rename id00278 "$abc$2722$auto$rtlil.cc:2281:NotGate$2681") (joined
+              (portRef O (instanceRef id00051))
+              (portRef R (instanceRef id00096))
+            )
+          )
+          (net (rename id00279 "$abc$2722$auto$rtlil.cc:2281:NotGate$2679") (joined
+              (portRef O (instanceRef id00052))
+              (portRef R (instanceRef id00095))
+            )
+          )
+          (net (rename id00280 "$abc$2722$auto$rtlil.cc:2281:NotGate$2689") (joined
+              (portRef O (instanceRef id00047))
+              (portRef R (instanceRef id00100))
+            )
+          )
+          (net (rename id00281 "$abc$2722$auto$rtlil.cc:2281:NotGate$2719") (joined
+              (portRef O (instanceRef id00032))
+              (portRef R (instanceRef id00115))
+            )
+          )
+          (net (rename id00282 "$auto$alumacc.cc:485:replace_alu$1806.O[20]") (joined
               (portRef (member O 3) (instanceRef id00070))
               (portRef D (instanceRef id00107))
             )
           )
-          (net (rename id00284 "$auto$alumacc.cc:485:replace_alu$1806.O[21]") (joined
+          (net (rename id00283 "$auto$alumacc.cc:485:replace_alu$1806.O[21]") (joined
               (portRef (member O 2) (instanceRef id00070))
               (portRef D (instanceRef id00108))
             )
           )
-          (net (rename id00285 "$auto$alumacc.cc:485:replace_alu$1806.O[22]") (joined
+          (net (rename id00284 "$auto$alumacc.cc:485:replace_alu$1806.O[22]") (joined
               (portRef (member O 1) (instanceRef id00070))
               (portRef D (instanceRef id00109))
             )
           )
-          (net (rename id00286 "$auto$alumacc.cc:485:replace_alu$1806.O[23]") (joined
+          (net (rename id00285 "$auto$alumacc.cc:485:replace_alu$1806.O[23]") (joined
               (portRef (member O 0) (instanceRef id00070))
               (portRef D (instanceRef id00110))
             )
           )
-          (net (rename id00287 "$auto$alumacc.cc:485:replace_alu$1806.O[16]") (joined
+          (net (rename id00286 "$auto$alumacc.cc:485:replace_alu$1806.O[16]") (joined
               (portRef (member O 3) (instanceRef id00069))
               (portRef D (instanceRef id00103))
             )
           )
-          (net (rename id00288 "$auto$alumacc.cc:485:replace_alu$1806.O[17]") (joined
+          (net (rename id00287 "$auto$alumacc.cc:485:replace_alu$1806.O[17]") (joined
               (portRef (member O 2) (instanceRef id00069))
               (portRef D (instanceRef id00104))
             )
           )
-          (net (rename id00289 "$auto$alumacc.cc:485:replace_alu$1806.O[18]") (joined
+          (net (rename id00288 "$auto$alumacc.cc:485:replace_alu$1806.O[18]") (joined
               (portRef (member O 1) (instanceRef id00069))
               (portRef D (instanceRef id00105))
             )
           )
-          (net (rename id00290 "$auto$alumacc.cc:485:replace_alu$1806.O[19]") (joined
+          (net (rename id00289 "$auto$alumacc.cc:485:replace_alu$1806.O[19]") (joined
               (portRef (member O 0) (instanceRef id00069))
               (portRef D (instanceRef id00106))
             )
           )
-          (net (rename id00291 "$auto$alumacc.cc:485:replace_alu$1806.O[28]") (joined
+          (net (rename id00290 "$auto$alumacc.cc:485:replace_alu$1806.O[28]") (joined
               (portRef (member O 3) (instanceRef id00072))
               (portRef D (instanceRef id00115))
             )
           )
-          (net (rename id00292 "$auto$alumacc.cc:485:replace_alu$1806.O[29]") (joined
+          (net (rename id00291 "$auto$alumacc.cc:485:replace_alu$1806.O[29]") (joined
               (portRef (member O 2) (instanceRef id00072))
               (portRef D (instanceRef id00116))
             )
           )
-          (net (rename id00293 "$auto$alumacc.cc:485:replace_alu$1806.O[30]") (joined
+          (net (rename id00292 "$auto$alumacc.cc:485:replace_alu$1806.O[30]") (joined
               (portRef (member O 1) (instanceRef id00072))
             )
           )
-          (net (rename id00294 "$auto$alumacc.cc:485:replace_alu$1806.O[31]") (joined
+          (net (rename id00293 "$auto$alumacc.cc:485:replace_alu$1806.O[31]") (joined
               (portRef (member O 0) (instanceRef id00072))
             )
           )
-          (net (rename id00295 "$auto$alumacc.cc:485:replace_alu$1806.O[24]") (joined
+          (net (rename id00294 "$auto$alumacc.cc:485:replace_alu$1806.O[24]") (joined
               (portRef (member O 3) (instanceRef id00071))
               (portRef D (instanceRef id00111))
             )
           )
-          (net (rename id00296 "$auto$alumacc.cc:485:replace_alu$1806.O[25]") (joined
+          (net (rename id00295 "$auto$alumacc.cc:485:replace_alu$1806.O[25]") (joined
               (portRef (member O 2) (instanceRef id00071))
               (portRef D (instanceRef id00112))
             )
           )
-          (net (rename id00297 "$auto$alumacc.cc:485:replace_alu$1806.O[26]") (joined
+          (net (rename id00296 "$auto$alumacc.cc:485:replace_alu$1806.O[26]") (joined
               (portRef (member O 1) (instanceRef id00071))
               (portRef D (instanceRef id00113))
             )
           )
-          (net (rename id00298 "$auto$alumacc.cc:485:replace_alu$1806.O[27]") (joined
+          (net (rename id00297 "$auto$alumacc.cc:485:replace_alu$1806.O[27]") (joined
               (portRef (member O 0) (instanceRef id00071))
               (portRef D (instanceRef id00114))
             )
           )
-          (net (rename id00299 "$auto$alumacc.cc:485:replace_alu$1806.O[4]") (joined
+          (net (rename id00298 "$auto$alumacc.cc:485:replace_alu$1806.O[4]") (joined
               (portRef (member O 3) (instanceRef id00066))
               (portRef D (instanceRef id00091))
             )
           )
-          (net (rename id00300 "$auto$alumacc.cc:485:replace_alu$1806.O[5]") (joined
+          (net (rename id00299 "$auto$alumacc.cc:485:replace_alu$1806.O[5]") (joined
               (portRef (member O 2) (instanceRef id00066))
               (portRef D (instanceRef id00092))
             )
           )
-          (net (rename id00301 "$auto$alumacc.cc:485:replace_alu$1806.O[6]") (joined
+          (net (rename id00300 "$auto$alumacc.cc:485:replace_alu$1806.O[6]") (joined
               (portRef (member O 1) (instanceRef id00066))
               (portRef D (instanceRef id00093))
             )
           )
-          (net (rename id00302 "$auto$alumacc.cc:485:replace_alu$1806.O[7]") (joined
+          (net (rename id00301 "$auto$alumacc.cc:485:replace_alu$1806.O[7]") (joined
               (portRef (member O 0) (instanceRef id00066))
               (portRef D (instanceRef id00094))
             )
           )
-          (net (rename id00303 "$auto$alumacc.cc:485:replace_alu$1806.O[0]") (joined
+          (net (rename id00302 "$auto$alumacc.cc:485:replace_alu$1806.O[0]") (joined
               (portRef (member O 3) (instanceRef id00065))
               (portRef D (instanceRef id00087))
             )
           )
-          (net (rename id00304 "$auto$alumacc.cc:485:replace_alu$1806.O[1]") (joined
+          (net (rename id00303 "$auto$alumacc.cc:485:replace_alu$1806.O[1]") (joined
               (portRef (member O 2) (instanceRef id00065))
               (portRef D (instanceRef id00088))
             )
           )
-          (net (rename id00305 "$auto$alumacc.cc:485:replace_alu$1806.O[2]") (joined
+          (net (rename id00304 "$auto$alumacc.cc:485:replace_alu$1806.O[2]") (joined
               (portRef (member O 1) (instanceRef id00065))
               (portRef D (instanceRef id00089))
             )
           )
-          (net (rename id00306 "$auto$alumacc.cc:485:replace_alu$1806.O[3]") (joined
+          (net (rename id00305 "$auto$alumacc.cc:485:replace_alu$1806.O[3]") (joined
               (portRef (member O 0) (instanceRef id00065))
               (portRef D (instanceRef id00090))
             )
           )
-          (net (rename id00307 "$auto$alumacc.cc:485:replace_alu$1806.O[12]") (joined
+          (net (rename id00306 "$auto$alumacc.cc:485:replace_alu$1806.O[12]") (joined
               (portRef (member O 3) (instanceRef id00068))
               (portRef D (instanceRef id00099))
             )
           )
-          (net (rename id00308 "$auto$alumacc.cc:485:replace_alu$1806.O[13]") (joined
+          (net (rename id00307 "$auto$alumacc.cc:485:replace_alu$1806.O[13]") (joined
               (portRef (member O 2) (instanceRef id00068))
               (portRef D (instanceRef id00100))
             )
           )
-          (net (rename id00309 "$auto$alumacc.cc:485:replace_alu$1806.O[14]") (joined
+          (net (rename id00308 "$auto$alumacc.cc:485:replace_alu$1806.O[14]") (joined
               (portRef (member O 1) (instanceRef id00068))
               (portRef D (instanceRef id00101))
             )
           )
-          (net (rename id00310 "$auto$alumacc.cc:485:replace_alu$1806.O[15]") (joined
+          (net (rename id00309 "$auto$alumacc.cc:485:replace_alu$1806.O[15]") (joined
               (portRef (member O 0) (instanceRef id00068))
               (portRef D (instanceRef id00102))
             )
           )
-          (net (rename id00311 "$auto$alumacc.cc:485:replace_alu$1806.O[8]") (joined
+          (net (rename id00310 "$auto$alumacc.cc:485:replace_alu$1806.O[8]") (joined
               (portRef (member O 3) (instanceRef id00067))
               (portRef D (instanceRef id00095))
             )
           )
-          (net (rename id00312 "$auto$alumacc.cc:485:replace_alu$1806.O[9]") (joined
+          (net (rename id00311 "$auto$alumacc.cc:485:replace_alu$1806.O[9]") (joined
               (portRef (member O 2) (instanceRef id00067))
               (portRef D (instanceRef id00096))
             )
           )
-          (net (rename id00313 "$auto$alumacc.cc:485:replace_alu$1806.O[10]") (joined
+          (net (rename id00312 "$auto$alumacc.cc:485:replace_alu$1806.O[10]") (joined
               (portRef (member O 1) (instanceRef id00067))
               (portRef D (instanceRef id00097))
             )
           )
-          (net (rename id00314 "$auto$alumacc.cc:485:replace_alu$1806.O[11]") (joined
+          (net (rename id00313 "$auto$alumacc.cc:485:replace_alu$1806.O[11]") (joined
               (portRef (member O 0) (instanceRef id00067))
               (portRef D (instanceRef id00098))
+            )
+          )
+          (net (rename id00314 "$abc$2722$auto$rtlil.cc:2281:NotGate$2721") (joined
+              (portRef O (instanceRef id00001))
+              (portRef R (instanceRef id00116))
             )
           )
           (net (rename id00315 "$auto$alumacc.cc:485:replace_alu$1806.C[23]") (joined
@@ -2011,9 +2013,9 @@
               (portRef O (instanceRef id00015))
             )
           )
-          (net (rename id00348 "$abc$2726$auto$rtlil.cc:2281:NotGate$2707") (joined
-              (portRef O (instanceRef id00040))
-              (portRef R (instanceRef id00107))
+          (net (rename id00348 "$abc$2722$auto$rtlil.cc:2281:NotGate$2701") (joined
+              (portRef O (instanceRef id00041))
+              (portRef R (instanceRef id00106))
             )
           )
           (net (rename id00349 "$0LA[0:0]") (joined
@@ -2026,66 +2028,64 @@
               (portRef O (instanceRef id00023))
             )
           )
-          (net (rename id00351 "$abc$2726$auto$rtlil.cc:2281:NotGate$2679") (joined
-              (portRef O (instanceRef id00054))
-              (portRef R (instanceRef id00093))
-            )
-          )
-          (net (rename id00352 "$abc$2726$auto$simplemap.cc:256:simplemap_eqne$2156") (joined
-              (portRef G (instanceRef id00119))
-              (portRef G (instanceRef id00120))
-              (portRef G (instanceRef id00121))
-              (portRef O (instanceRef id00018))
-            )
-          )
-          (net (rename id00353 "$abc$2726$auto$rtlil.cc:2281:NotGate$2705") (joined
-              (portRef O (instanceRef id00041))
-              (portRef R (instanceRef id00106))
-            )
-          )
-          (net (rename id00354 "$abc$2726$auto$rtlil.cc:2281:NotGate$2693") (joined
-              (portRef O (instanceRef id00047))
-              (portRef R (instanceRef id00100))
-            )
-          )
-          (net (rename id00355 "$abc$2726$auto$rtlil.cc:2281:NotGate$2675") (joined
-              (portRef O (instanceRef id00056))
-              (portRef R (instanceRef id00091))
-            )
-          )
-          (net (rename id00356 "$abc$2726$auto$rtlil.cc:2281:NotGate$2681") (joined
-              (portRef O (instanceRef id00053))
-              (portRef R (instanceRef id00094))
-            )
-          )
-          (net (rename id00357 "$abc$2726$auto$rtlil.cc:2281:NotGate$2677") (joined
+          (net (rename id00351 "$abc$2722$auto$rtlil.cc:2281:NotGate$2673") (joined
               (portRef O (instanceRef id00055))
               (portRef R (instanceRef id00092))
             )
           )
-          (net (rename id00358 "$abc$2726$auto$rtlil.cc:2281:NotGate$2669") (joined
-              (portRef O (instanceRef id00059))
-              (portRef R (instanceRef id00088))
+          (net (rename id00352 "$abc$2722$auto$rtlil.cc:2281:NotGate$2699") (joined
+              (portRef O (instanceRef id00042))
+              (portRef R (instanceRef id00105))
             )
           )
-          (net (rename id00359 "$abc$2726$auto$rtlil.cc:2281:NotGate$2683") (joined
-              (portRef O (instanceRef id00052))
-              (portRef R (instanceRef id00095))
+          (net (rename id00353 "$auto$clkbufmap.cc:262:execute$2892") (joined
+              (portRef I (instanceRef id00073))
+              (portRef O (instanceRef id00140))
             )
           )
-          (net (rename id00360 "$abc$2726$auto$rtlil.cc:2281:NotGate$2667") (joined
-              (portRef O (instanceRef id00060))
-              (portRef R (instanceRef id00087))
+          (net (rename id00354 "$abc$2722$auto$rtlil.cc:2281:NotGate$2687") (joined
+              (portRef O (instanceRef id00048))
+              (portRef R (instanceRef id00099))
             )
           )
-          (net (rename id00361 "$abc$2726$auto$rtlil.cc:2281:NotGate$2673") (joined
+          (net (rename id00355 "$abc$2722$auto$rtlil.cc:2281:NotGate$2669") (joined
               (portRef O (instanceRef id00057))
               (portRef R (instanceRef id00090))
             )
           )
-          (net (rename id00362 "$abc$2726$auto$rtlil.cc:2281:NotGate$2671") (joined
+          (net (rename id00356 "$abc$2722$auto$rtlil.cc:2281:NotGate$2675") (joined
+              (portRef O (instanceRef id00054))
+              (portRef R (instanceRef id00093))
+            )
+          )
+          (net (rename id00357 "$abc$2722$auto$rtlil.cc:2281:NotGate$2671") (joined
+              (portRef O (instanceRef id00056))
+              (portRef R (instanceRef id00091))
+            )
+          )
+          (net (rename id00358 "$abc$2722$auto$rtlil.cc:2281:NotGate$2663") (joined
+              (portRef O (instanceRef id00060))
+              (portRef R (instanceRef id00087))
+            )
+          )
+          (net (rename id00359 "$abc$2722$auto$rtlil.cc:2281:NotGate$2677") (joined
+              (portRef O (instanceRef id00053))
+              (portRef R (instanceRef id00094))
+            )
+          )
+          (net (rename id00360 "$abc$2722$auto$rtlil.cc:2281:NotGate$2667") (joined
               (portRef O (instanceRef id00058))
               (portRef R (instanceRef id00089))
+            )
+          )
+          (net (rename id00361 "$abc$2722$auto$rtlil.cc:2281:NotGate$2665") (joined
+              (portRef O (instanceRef id00059))
+              (portRef R (instanceRef id00088))
+            )
+          )
+          (net (rename id00362 "$abc$2722$auto$rtlil.cc:2125:ReduceOr$1616") (joined
+              (portRef G (instanceRef id00117))
+              (portRef O (instanceRef id00025))
             )
           )
           (net (rename id00363 "$auto$alumacc.cc:485:replace_alu$1800.C[1]") (joined
@@ -2201,9 +2201,9 @@
               (portRef D (instanceRef id00084))
             )
           )
-          (net (rename id00388 "$abc$2726$auto$rtlil.cc:2281:NotGate$2703") (joined
-              (portRef O (instanceRef id00042))
-              (portRef R (instanceRef id00105))
+          (net (rename id00388 "$abc$2722$auto$rtlil.cc:2281:NotGate$2697") (joined
+              (portRef O (instanceRef id00043))
+              (portRef R (instanceRef id00104))
             )
           )
         )
